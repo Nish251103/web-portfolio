@@ -132,7 +132,9 @@ a:hover{
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: bounce-2;
-  padding-left: 1420px;
+  /* padding-left: 1420px; */
+  position: absolute;
+  left: 95vw;
   padding-top: 120px;
   animation-timing-function: ease;
 }
@@ -144,12 +146,24 @@ a:hover{
 
 
 .skills-word{
-  padding: 50px;
+  /* padding: 50px; */
   font-size: 50px;
+  text-align: center;
 }
 
 .skill-section{
-  padding-left: 780px;
+  /* padding-left: 780px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .skills-iteams{
