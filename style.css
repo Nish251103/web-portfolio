@@ -200,6 +200,19 @@ a:hover{
 
 .project-img{
   height: 450px;
-
+}
+.btn-close{
+  filter: invert(100%);
+}
+.nav-link{
+  padding-left: 10px;
+}
+a:hover{
+  background: none;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  transition: 0.1s ease-in;
+  position: relative;
+  top: -6px;
 }
 /* .................................................. */
