@@ -208,6 +208,7 @@ a:hover{
   padding-left: 10px;
 }
 .links a:hover{
+  background: none;
   text-decoration: underline;
   text-underline-offset: 6px;
   transition: 0.1s ease-in;
