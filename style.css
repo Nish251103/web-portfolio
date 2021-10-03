@@ -204,4 +204,14 @@ a:hover{
 .btn-close{
   filter: invert(100%);
 }
+.nav-link{
+  padding-left: 10px;
+}
+.links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  transition: 0.1s ease-in;
+  position: relative;
+  top: -6px;
+}
 /* .................................................. */
