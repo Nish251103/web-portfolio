@@ -215,4 +215,8 @@ a:hover{
   position: relative;
   top: -6px;
 }
+
+#size-restricted {
+  min-height: 650px;
+}
 /* .................................................. */
