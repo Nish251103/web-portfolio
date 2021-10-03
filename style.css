@@ -207,7 +207,7 @@ a:hover{
 .nav-link{
   padding-left: 10px;
 }
-.links a:hover{
+a:hover{
   background: none;
   text-decoration: underline;
   text-underline-offset: 6px;
