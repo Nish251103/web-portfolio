@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Gemunu+Libre:wght@600&display=swap");
 
 /*........................*/
@@ -246,3 +247,498 @@ a:hover {
   min-height: 650px;
 }
 /* .................................................. */
+=======
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Gemunu+Libre:wght@600&display=swap');
+
+
+/*........................*/
+
+body {
+  background-color: black;
+  color: #FFFFFF;
+  font-family: 'Balsamiq Sans', cursive;
+  /* font-family: 'Gemunu Libre', sans-serif; */
+  /* background: url('https://images.unsplash.com/photo-1597008937185-8874e312c24d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'); */
+  /* background: url(assets\c-images\homepgbg2.jpg);*/
+  background-repeat: no-repeat;
+/*background-attachment: fixed;*/
+  background-size: cover;
+}
+
+/* .home{
+  background-image: url("assets\c-images\homepgbg2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+
+
+/*........................*/
+
+/*custom scroll bar stars here*/
+
+* {
+  scrollbar-width: 18px;/*thin;*/
+  scrollbar-color: black #141414;
+}
+
+*::-webkit-scrollbar {
+  width: 18px;
+}
+
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;    /* color of the scroll thumb */
+  
+}
+
+/*custom scroll bar ends here*/
+
+
+.intro-1{
+  font-size: 200%;
+}
+
+.intro-tag{
+  margin-top: 6%;
+  margin-left: 8%;
+}
+
+.intro-2{
+  font-size: 480%;
+}
+
+/*........................*/
+.typingtext{
+  color: #FFF
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 200%;
+  width: 320px;
+  border-style: dashed;
+  padding: 10px;
+  border-width: 6px;
+
+  }
+
+.blinking-cursor{
+  user-select: none
+  animation: blink 1s steps(2, start) infinite
+  @keyframes blink
+    to
+      visibility: hidden
+}
+
+/*........................*/
+.print-ide-color{
+  color: #C324E3;
+}
+
+.ide-color-2{
+  color: #00e600;
+}
+
+
+.logo-N{
+  margin-top: 70px;
+  margin-left: 30px;
+  border-radius: 20%;
+  height: 75px;
+  width: 87px;
+}
+
+.quote-1{
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size:27px;
+  color: #df80ff;
+  margin-top: 285.5px;
+
+}
+
+.intro-title{
+  font-size: 400%;
+
+  /* width: 320px;
+  border-style: none;
+  width: 580px;
+  margin-left: 80px;*/
+  margin-top: -80px;
+}
+
+.intro-text{
+  font-size: 100%;
+  padding-top: 70px;
+  /* width: 320px;
+  border-style: none;
+  width: 500px;
+  margin-left: 900px;*/
+  /* margin-right:70px;  */
+
+}
+
+ .brief-section{
+   padding-top: 260px;
+ }
+
+.links{
+  font-size: 27px;
+  color: white;
+  /* margin-top: -80px; */
+  padding-left: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: ;
+  /* text-decoration:underline;
+  text-decoration-thickness:60%; */
+  background: linear-gradient(#4dffff, #3399ff);
+
+}
+
+
+.scroll-arrow{
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+  padding-left: 1420px;
+  padding-top: 120px;
+  animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-150px); }
+  100% { transform: translateY(0); }
+}
+
+
+.skills-word{
+  padding: 50px;
+  font-size: 50px;
+}
+
+.skill-section{
+  padding-left: 780px;
+}
+
+.skills-iteams{
+  font-size: 25px;
+  font-family: 'Gemunu Libre', sans-serif;
+  padding: 5px;
+}
+
+.edu-title{
+  padding-top: 150px;
+  padding-left: 60px;
+
+}
+
+.edu-iteam{
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.portfolio-link{
+  padding-left: 450px;
+  padding-top: 150px;
+}
+
+.c-gallary{
+  border-style: solid;
+  border-width: 5px;
+  padding: 30px;
+  width: 240px;
+  height: 275px;
+}
+
+.certi{
+  margin-top: 70px;
+}
+
+.certificate-title{
+  font-size: 400%;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+.project-title{
+  padding-top: 170px;
+  padding-bottom: 50px;
+  padding-left: 585px;
+}
+
+.project-img{
+  height: 450px;
+}
+.btn-close{
+  filter: invert(100%);
+}
+.nav-link{
+  padding-left: 10px;
+}
+a:hover{
+  background: none;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  transition: 0.1s ease-in;
+  position: relative;
+  top: -6px;
+}
+
+#size-restricted {
+  min-height: 650px;
+}
+/* .................................................. */
+
+=======
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Gemunu+Libre:wght@600&display=swap');
+
+
+/*........................*/
+body {
+  background-color: black;
+  color: #FFFFFF;
+  font-family: 'Balsamiq Sans', cursive;
+  /* font-family: 'Gemunu Libre', sans-serif; */
+  /* background: url('https://images.unsplash.com/photo-1597008937185-8874e312c24d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'); */
+  /* background: url(assets\c-images\homepgbg2.jpg);*/
+  background-repeat: no-repeat;
+/*background-attachment: fixed;*/
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/* .home{
+  background-image: url("assets\c-images\homepgbg2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+
+
+/*........................*/
+.intro-1{
+  font-size: 200%;
+}
+
+.intro-tag{
+  margin-top: 6%;
+  margin-left: 8%;
+}
+
+.intro-2{
+  font-size: 480%;
+}
+
+/*........................*/
+.typingtext{
+  color: #FFF;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 200%;
+  width: 320px;
+  border-style: dashed;
+  padding: 10px;
+  border-width: 6px;
+  }
+
+.blinking-cursor{
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite;
+  @keyframes blink
+    to
+      visibility: hidden
+}
+
+/*........................*/
+.print-ide-color{
+  color: #C324E3;
+}
+
+.ide-color-2{
+  color: #00e600;
+}
+
+
+.logo-N{
+  margin-top: 70px;
+  margin-left: 30px;
+  border-radius: 20%;
+  height: 75px;
+  width: 87px;
+}
+
+.quote-1{
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size:27px;
+  color: #df80ff;
+  margin-top: 285.5px;
+
+}
+
+.intro-title{
+  font-size: 400%;
+
+  width: 320px;
+  border-style: none;
+  width: 580px;
+
+  margin-left: 80px; 
+  margin-top: -80px;
+
+  margin-left: 80px;
+   */
+   margin-top: -80px;
+
+}
+
+.intro-text{
+  font-size: 100%;
+  padding-top: 70px;
+  /* width: 320px;
+  border-style: none;
+  width: 500px;
+  margin-left: 900px;*/
+  margin-right:70px; 
+
+}
+
+ .brief-section{
+   padding-top: 260px;
+ }
+
+.links{
+  font-size: 27px;
+  color: white;
+  /* margin-top: -80px; */
+  padding-left: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: gray;
+  /* color: ; */
+  /* text-decoration:underline;
+  text-decoration-thickness:60%; */
+  background: linear-gradient(#4dffff, #3399ff);
+
+}
+
+
+.scroll-arrow{
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+  padding-left: 1420px;
+  padding-top: 120px;
+  animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-150px); }
+  100% { transform: translateY(0); }
+}
+
+
+.skills-word{
+  padding: 50px;
+  font-size: 50px;
+}
+
+.skill-section{
+  padding-left: 780px;
+}
+
+.skills-iteams{
+  font-size: 25px;
+  font-family: 'Gemunu Libre', sans-serif;
+  padding: 5px;
+}
+
+.edu-title{
+  padding-top: 150px;
+  padding-left: 60px;
+
+}
+
+.edu-iteam{
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.portfolio-link{
+  padding-left: 450px;
+  padding-top: 150px;
+}
+
+.c-gallary{
+  border-style: solid;
+
+  color: gray;
+  border-width: 5px;
+
+  border-width: 3px;
+
+  padding: 30px;
+  width: 240px;
+  height: 275px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px rgb(107, 102, 102);
+}
+
+.certi{
+  margin-top: 70px;
+  margin: 20px;
+}
+
+.certificate-title{
+  font-size: 05em;
+  text-align: center;
+  /* margin-left: 450px; */
+  margin-top: 50px;
+}
+
+.project-title{
+  padding-top: 170px;
+  padding-bottom: 50px;
+  padding-left: 585px;
+}
+
+.project-img{
+  height: 350px;
+}
+.btn-close{
+  filter: invert(100%);
+}
+.nav-link{
+  padding-left: 10px;
+}
+a:hover{
+  background: none;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  transition: 0.1s ease-in;
+  position: relative;
+  top: -6px;
+}
+
+#size-restricted {
+  min-height: 650px;
+}
+/* .................................................. */
+
+.c-gallary {
+  border: solid 5px gray;
+  transition: border-width 0.3s linear;
+}
+
+.c-gallary:hover { border-width: 10px; }
+
+
