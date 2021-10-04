@@ -104,7 +104,12 @@ body {
 }
 
  .brief-section{
-   padding-top: 260px;
+    padding: 20px;
+    padding-top: 260px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
  }
 
 .links{
@@ -134,7 +139,7 @@ a:hover{
   animation-name: bounce-2;
   /* padding-left: 1420px; */
   position: absolute;
-  left: 95vw;
+  left: 90vw;
   padding-top: 120px;
   animation-timing-function: ease;
 }
@@ -164,12 +169,21 @@ a:hover{
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding: 15px;
+}
+
+.myStyle{
+  padding: 20px;
 }
 
 .skills-iteams{
   font-size: 25px;
   font-family: 'Gemunu Libre', sans-serif;
   padding: 5px;
+}
+
+.left-col{
+  margin-right: 20px;
 }
 
 .edu-title{
@@ -184,7 +198,7 @@ a:hover{
 }
 
 .portfolio-link{
-  padding-left: 450px;
+  /* padding-left: 450px; */
   padding-top: 150px;
 }
 
@@ -202,14 +216,16 @@ a:hover{
 
 .certificate-title{
   font-size: 400%;
-  margin-left: 450px;
+  /* margin-left: 450px; */
   margin-top: 50px;
+  text-align: center;
 }
 
 .project-title{
   padding-top: 170px;
   padding-bottom: 50px;
-  padding-left: 585px;
+  /* padding-left: 585px; */
+  text-align: center;
 }
 
 .project-img{
