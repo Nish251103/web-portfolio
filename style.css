@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Gemunu+Libre:wght@600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Gemunu+Libre:wght@600&display=swap");
 
 /*........................*/
 body {
   background-color: black;
-  color: #FFFFFF;
-  font-family: 'Balsamiq Sans', cursive;
+  color: #ffffff;
+  font-family: "Balsamiq Sans", cursive;
   /* font-family: 'Gemunu Libre', sans-serif; */
   /* background: url('https://images.unsplash.com/photo-1597008937185-8874e312c24d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'); */
   /* background: url(assets\c-images\homepgbg2.jpg);*/
   background-repeat: no-repeat;
-/*background-attachment: fixed;*/
+  /*background-attachment: fixed;*/
   background-size: cover;
 }
 
@@ -21,52 +20,49 @@ body {
   background-size: cover;
 } */
 
-
 /*........................*/
-.intro-1{
+.intro-1 {
   font-size: 200%;
 }
 
-.intro-tag{
+.intro-tag {
   margin-top: 6%;
   margin-left: 8%;
 }
 
-.intro-2{
+.intro-2 {
   font-size: 480%;
 }
 
 /*........................*/
-.typingtext{
-  color: #FFF
-  font-family: 'Balsamiq Sans', cursive;
+.typingtext {
+  color: #fff;
+  font-family: "Balsamiq Sans", cursive;
   font-size: 200%;
   width: 320px;
   border-style: dashed;
   padding: 10px;
   border-width: 6px;
+}
 
-  }
-
-.blinking-cursor{
-  user-select: none
-  animation: blink 1s steps(2, start) infinite
+.blinking-cursor {
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite;
   @keyframes blink
     to
-      visibility: hidden
+      visibility: hidden;
 }
 
 /*........................*/
-.print-ide-color{
-  color: #C324E3;
+.print-ide-color {
+  color: #c324e3;
 }
 
-.ide-color-2{
+.ide-color-2 {
   color: #00e600;
 }
 
-
-.logo-N{
+.logo-N {
   margin-top: 70px;
   margin-left: 30px;
   border-radius: 20%;
@@ -74,15 +70,14 @@ body {
   width: 87px;
 }
 
-.quote-1{
-  font-family: 'Gemunu Libre', sans-serif;
-  font-size:27px;
+.quote-1 {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 27px;
   color: #df80ff;
   margin-top: 285.5px;
-
 }
 
-.intro-title{
+.intro-title {
   font-size: 400%;
 
   /* width: 320px;
@@ -92,7 +87,7 @@ body {
   margin-top: -80px;
 }
 
-.intro-text{
+.intro-text {
   font-size: 100%;
   padding-top: 70px;
   /* width: 320px;
@@ -100,40 +95,37 @@ body {
   width: 500px;
   margin-left: 900px;*/
   /* margin-right:70px;  */
-
 }
 
- .brief-section{
-    padding: 20px;
-    padding-top: 260px;
-    /* display: flex;
+.brief-section {
+  padding: 20px;
+  padding-top: 260px;
+  /* display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row; */
- }
+}
 
-.links{
+.links {
   font-size: 27px;
   color: white;
   /* margin-top: -80px; */
   padding-left: 100px;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-a:hover{
-  color: ;
+a:hover {
+  /* color: ; */
   /* text-decoration:underline;
   text-decoration-thickness:60%; */
   background: linear-gradient(#4dffff, #3399ff);
-
 }
 
-
-.scroll-arrow{
+.scroll-arrow {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: bounce-2;
@@ -144,19 +136,24 @@ a:hover{
   animation-timing-function: ease;
 }
 @keyframes bounce-2 {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-150px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-
-.skills-word{
+.skills-word {
   /* padding: 50px; */
   font-size: 50px;
   text-align: center;
 }
 
-.skill-section{
+.skill-section {
   /* padding-left: 780px; */
   display: flex;
   flex-direction: column;
@@ -164,7 +161,7 @@ a:hover{
   align-items: center;
 }
 
-.skills-col{
+.skills-col {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,37 +169,36 @@ a:hover{
   padding: 15px;
 }
 
-.myStyle{
+.myStyle {
   padding: 20px;
 }
 
-.skills-iteams{
+.skills-iteams {
   font-size: 25px;
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: "Gemunu Libre", sans-serif;
   padding: 5px;
 }
 
-.left-col{
+.left-col {
   margin-right: 20px;
 }
 
-.edu-title{
+.edu-title {
   padding-top: 150px;
   padding-left: 60px;
-
 }
 
-.edu-iteam{
+.edu-iteam {
   padding: 20px;
   margin-left: 50px;
 }
 
-.portfolio-link{
+.portfolio-link {
   /* padding-left: 450px; */
   padding-top: 150px;
 }
 
-.c-gallary{
+.c-gallary {
   border-style: solid;
   border-width: 5px;
   padding: 30px;
@@ -210,34 +206,34 @@ a:hover{
   height: 275px;
 }
 
-.certi{
+.certi {
   margin-top: 70px;
 }
 
-.certificate-title{
+.certificate-title {
   font-size: 400%;
   /* margin-left: 450px; */
   margin-top: 50px;
   text-align: center;
 }
 
-.project-title{
+.project-title {
   padding-top: 170px;
   padding-bottom: 50px;
   /* padding-left: 585px; */
   text-align: center;
 }
 
-.project-img{
+.project-img {
   height: 450px;
 }
-.btn-close{
+.btn-close {
   filter: invert(100%);
 }
-.nav-link{
+.nav-link {
   padding-left: 10px;
 }
-a:hover{
+a:hover {
   background: none;
   text-decoration: underline;
   text-underline-offset: 6px;
