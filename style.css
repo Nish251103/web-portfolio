@@ -2,6 +2,7 @@
 
 
 /*........................*/
+
 body {
   background-color: black;
   color: #FFFFFF;
@@ -23,6 +24,27 @@ body {
 
 
 /*........................*/
+
+/*custom scroll bar stars here*/
+
+* {
+  scrollbar-width: 18px;/*thin;*/
+  scrollbar-color: black #141414;
+}
+
+*::-webkit-scrollbar {
+  width: 18px;
+}
+
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;    /* color of the scroll thumb */
+  
+}
+
+/*custom scroll bar ends here*/
+
+
 .intro-1{
   font-size: 200%;
 }
@@ -220,3 +242,4 @@ a:hover{
   min-height: 650px;
 }
 /* .................................................. */
+
