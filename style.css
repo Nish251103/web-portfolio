@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
 /*background-attachment: fixed;*/
   background-size: cover;
+  overflow-x: hidden;
 }
 
 /* .home{
@@ -87,8 +88,14 @@ body {
   width: 320px;
   border-style: none;
   width: 580px;
+
   margin-left: 80px; 
   margin-top: -80px;
+
+  margin-left: 80px;
+   */
+   margin-top: -80px;
+
 }
 
 .intro-text{
@@ -120,6 +127,7 @@ a{
 
 a:hover{
   color: gray;
+  /* color: ; */
   /* text-decoration:underline;
   text-decoration-thickness:60%; */
   background: linear-gradient(#4dffff, #3399ff);
@@ -175,11 +183,18 @@ a:hover{
 
 .c-gallary{
   border-style: solid;
+
   color: gray;
   border-width: 5px;
+
+  border-width: 3px;
+
   padding: 30px;
   width: 240px;
   height: 275px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px rgb(107, 102, 102);
 }
 
 .certi{
@@ -188,8 +203,9 @@ a:hover{
 }
 
 .certificate-title{
-  font-size: 400%;
-  margin-left: 450px;
+  font-size: 05em;
+  text-align: center;
+  /* margin-left: 450px; */
   margin-top: 50px;
 }
 
@@ -200,7 +216,7 @@ a:hover{
 }
 
 .project-img{
-  height: 450px;
+  height: 350px;
 }
 .btn-close{
   filter: invert(100%);
