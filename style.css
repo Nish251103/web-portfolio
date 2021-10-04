@@ -38,19 +38,18 @@ body {
 
 /*........................*/
 .typingtext{
-  color: #FFF
+  color: #FFF;
   font-family: 'Balsamiq Sans', cursive;
   font-size: 200%;
   width: 320px;
   border-style: dashed;
   padding: 10px;
   border-width: 6px;
-
   }
 
 .blinking-cursor{
-  user-select: none
-  animation: blink 1s steps(2, start) infinite
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite;
   @keyframes blink
     to
       visibility: hidden
@@ -85,10 +84,10 @@ body {
 .intro-title{
   font-size: 400%;
 
-  /* width: 320px;
+  width: 320px;
   border-style: none;
   width: 580px;
-  margin-left: 80px;*/
+  margin-left: 80px; 
   margin-top: -80px;
 }
 
@@ -99,7 +98,7 @@ body {
   border-style: none;
   width: 500px;
   margin-left: 900px;*/
-  /* margin-right:70px;  */
+  margin-right:70px; 
 
 }
 
@@ -120,7 +119,7 @@ a{
 }
 
 a:hover{
-  color: ;
+  color: gray;
   /* text-decoration:underline;
   text-decoration-thickness:60%; */
   background: linear-gradient(#4dffff, #3399ff);
@@ -176,6 +175,7 @@ a:hover{
 
 .c-gallary{
   border-style: solid;
+  color: gray;
   border-width: 5px;
   padding: 30px;
   width: 240px;
@@ -184,6 +184,7 @@ a:hover{
 
 .certi{
   margin-top: 70px;
+  margin: 20px;
 }
 
 .certificate-title{
@@ -220,3 +221,10 @@ a:hover{
   min-height: 650px;
 }
 /* .................................................. */
+
+.c-gallary {
+  border: solid 5px gray;
+  transition: border-width 0.3s linear;
+}
+
+.c-gallary:hover { border-width: 10px; }
