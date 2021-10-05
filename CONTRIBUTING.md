@@ -34,4 +34,3 @@ When contributing to this repository, **please first discuss the change you wish
 
 - If you are new to Git - [Git & Github for Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 - For a more detailed understanding of the git flow - [Git Workflow Explained](https://medium.com/@swinkler/git-workflow-explained-a-step-by-step-guide-83c1c9247f03)
-- For Installation - [README.md](https://github.com/hhhrrrttt222111/handReacting/blob/master/README.md)
