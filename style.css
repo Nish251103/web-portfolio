@@ -38,7 +38,7 @@ body {
 
 /*........................*/
 .typingtext{
-  color: #FFF
+  color: #FFF;
   font-family: 'Balsamiq Sans', cursive;
   font-size: 200%;
   width: 320px;
@@ -49,8 +49,8 @@ body {
   }
 
 .blinking-cursor{
-  user-select: none
-  animation: blink 1s steps(2, start) infinite
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite;
   @keyframes blink
     to
       visibility: hidden
@@ -120,7 +120,7 @@ a{
 }
 
 a:hover{
-  color: ;
+  /* color: ; */
   /* text-decoration:underline;
   text-decoration-thickness:60%; */
   background: linear-gradient(#4dffff, #3399ff);
@@ -218,5 +218,30 @@ a:hover{
 
 #size-restricted {
   min-height: 650px;
+}
+
+.button-top-div {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  cursor: pointer;
+  padding: 10px 13px;
+  display: flex;
+  align-items: center;
+  z-index: 80;
+  font-size: 20px;
+  background-color: rgb(218, 216, 216,0.8);
+  color: black !important;
+  border-radius: 50%;
+}
+.button-top-div:hover{
+  background-color: rgb(218, 216, 216,0.5);
+  color: #111 !important;
+  font-size: 700;
+}
+.button-top-div a:hover{
+  color: #111;
+  font-weight: 700px !important;
+  text-decoration: none;
 }
 /* .................................................. */
