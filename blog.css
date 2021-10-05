@@ -1,0 +1,42 @@
+body {
+  background-color: #eef0f2;
+}
+
+.page-header {
+  position: relative;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page-header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.post {
+  padding-top: 3.846rem;
+}
+.post-featured-img {
+  height: 100%;
+  width: 100%;
+  min-height: 15rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.post-preview-meta-img {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.card-review img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
