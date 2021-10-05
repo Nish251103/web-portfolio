@@ -233,6 +233,7 @@ a:hover{
   background-color: rgb(218, 216, 216,0.8);
   color: black !important;
   border-radius: 50%;
+  display: none;
 }
 .button-top-div:hover{
   background-color: rgb(218, 216, 216,0.5);
