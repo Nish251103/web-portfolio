@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
 /*background-attachment: fixed;*/
   background-size: cover;
+  overflow-x: hidden;
 }
 
 /* .home{
@@ -23,13 +24,21 @@ body {
 
 
 /*........................*/
-.intro-1{
+/*.intro-1{
   font-size: 200%;
-}
+}*/
 
 .intro-tag{
   margin-top: 6%;
   margin-left: 8%;
+}
+
+.intro-tag .profile-img{
+  position: absolute;
+  top:80px;
+  left: 380px;
+  height: 40px;
+  width: 40px;
 }
 
 .intro-2{
@@ -38,19 +47,18 @@ body {
 
 /*........................*/
 .typingtext{
-  color: #FFF
+  color: #FFF;
   font-family: 'Balsamiq Sans', cursive;
   font-size: 200%;
   width: 320px;
   border-style: dashed;
   padding: 10px;
   border-width: 6px;
-
   }
 
 .blinking-cursor{
-  user-select: none
-  animation: blink 1s steps(2, start) infinite
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite;
   @keyframes blink
     to
       visibility: hidden
@@ -85,11 +93,17 @@ body {
 .intro-title{
   font-size: 400%;
 
-  /* width: 320px;
+  width: 320px;
   border-style: none;
   width: 580px;
-  margin-left: 80px;*/
+
+  margin-left: 80px; 
   margin-top: -80px;
+
+  margin-left: 80px;
+   */
+   margin-top: -80px;
+
 }
 
 .intro-text{
@@ -99,7 +113,7 @@ body {
   border-style: none;
   width: 500px;
   margin-left: 900px;*/
-  /* margin-right:70px;  */
+  margin-right:70px; 
 
 }
 
@@ -120,7 +134,8 @@ a{
 }
 
 a:hover{
-  color: ;
+  color: gray;
+  /* color: ; */
   /* text-decoration:underline;
   text-decoration-thickness:60%; */
   background: linear-gradient(#4dffff, #3399ff);
@@ -152,6 +167,13 @@ a:hover{
   padding-left: 780px;
 }
 
+.about-me-img{
+  position: relative;
+  right: 750px;
+  width: 40px;
+  height: 40px;
+}
+
 .skills-iteams{
   font-size: 25px;
   font-family: 'Gemunu Libre', sans-serif;
@@ -169,26 +191,53 @@ a:hover{
   margin-left: 50px;
 }
 
-.portfolio-link{
-  padding-left: 450px;
-  padding-top: 150px;
+#my-academics{
+  margin-top: 80px;
 }
 
-.c-gallary{
-  border-style: solid;
-  border-width: 5px;
-  padding: 30px;
-  width: 240px;
-  height: 275px;
+.my-education{
+  position: relative;
+   left: 700px;
+   bottom:500px;
+  
+}
+#resume{
+  position: relative;
+  bottom:400px;
+  left: 600px;
+}
+
+.resume-button{
+     background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+#projects{
+position: relative;
+bottom: 320px;
 }
 
 .certi{
   margin-top: 70px;
+  margin: 20px;
 }
 
+#Certificates{
+  position: relative;
+bottom:200px;
+}
 .certificate-title{
-  font-size: 400%;
-  margin-left: 450px;
+  font-size: 05em;
+  text-align: center;
+  /* margin-left: 450px; */
   margin-top: 50px;
 }
 
@@ -199,7 +248,7 @@ a:hover{
 }
 
 .project-img{
-  height: 450px;
+  height: 350px;
 }
 .btn-close{
   filter: invert(100%);
@@ -220,3 +269,25 @@ a:hover{
   min-height: 650px;
 }
 /* .................................................. */
+
+.c-gallary{
+  height: 400px;
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 20px 20px;
+}
+
+
+.c-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  padding: 20px;
+  grid-gap: 40px;
+}
+.c-cards{
+  background-color: #1c1b29;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+
