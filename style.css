@@ -196,7 +196,7 @@ a:hover{
   padding-top: 150px;
 }
 
-.c-gallary{
+/* .c-gallary{
   border-style: solid;
   color: gray;
   border-width: 3px;
@@ -206,7 +206,7 @@ a:hover{
   margin-bottom: 10px;
   border-radius: 5px;
   box-shadow: 1px 2px 8px rgb(107, 102, 102);
-}
+} */
 
 .certi{
   margin-top: 70px;
@@ -251,14 +251,32 @@ a:hover{
 /* .................................................. */
 
 .c-gallary {
-  border: solid 5px gray;
+  border: solid 10px gray;
   transition: border-width 0.3s linear;
 }
 
-.c-gallary:hover { border-width: 10px; }
+.c-gallary:hover { border-width: 30px; }
 
 
+.c-gallary{
+  height: 400px;
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 20px 20px;
+}
 
+
+.c-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  padding: 20px;
+  grid-gap: 40px;
+}
+.c-cards{
+  background-color: #1c1b29;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
 
 
 
