@@ -107,8 +107,8 @@ body {
 .intro-title{
   font-size: 400%;
 
-  width: 320px;
-  border-style: none;
+  width: 200px;
+  border-style:none ;
   width: 580px;
   margin-left: 80px;
   margin-top: -80px;
@@ -116,7 +116,7 @@ body {
 
 .intro-text{
   font-size: 100%;
-  padding-top: 70px;
+  padding-top: 70p;
   /* width: 320px;
   border-style: none;
   width: 500px;
@@ -127,6 +127,8 @@ body {
 
  .brief-section{
    padding-top: 260px;
+   display:grid;
+   grid-template-rows: 1 fr 2 fr;
  }
 
 .links{
