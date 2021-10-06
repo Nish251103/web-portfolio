@@ -312,3 +312,15 @@ a:hover{
   text-decoration: none;
 
 }
+/* .......................... */
+footer{
+  min-height: 10vh;
+  margin-bottom:0;
+  position: absolute;
+  bottom:12;
+  width: 100%;
+}
+footer p a:hover{
+  font-weight: bolder;
+  color: white;
+}
