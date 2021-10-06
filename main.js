@@ -52,6 +52,7 @@ class TypeAsync extends HTMLSpanElement {
 
 customElements.define('type-async', TypeAsync, { extends: 'span' })
 
+
 var scrolBtn = document.querySelector("#myDIV");
       window.addEventListener("scroll", function () {
         let offset;
