@@ -84,23 +84,13 @@ body {
 }
 
 .intro-title {
-  font-size: 300%;
-  padding-left: 70px;
-  /* width: 320px;
-  border-style: none;
-  width: 580px;
-  margin-left: 80px;*/
-  /* margin-top: -80px; */
+  font-size: 50px;
+  text-align: center;
 }
 
 .intro-text {
-  font-size: 100%;
-  /* padding-top: 70px; */
-  /* width: 320px;
-  border-style: none;
-  width: 500px;
-  margin-left: 900px;*/
-  /* margin-right:70px;  */
+  font-size: 2vw;
+  text-align: center;
 }
 
 .brief-section {
@@ -168,13 +158,26 @@ a:hover {
 .edu-iteam {
   padding: 20px;
   margin-left: 50px;
+  font-size: 2vw;
 }
 
 .portfolio-link {
-  padding-left: 450px;
-  padding-top: 150px;
+  margin-top: 10vh;
+  position: relative;
 }
-
+.portfolio-link a {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+@media (max-width: 992px) {
+  .portfolio-link {
+    text-align: center;
+  }
+  .portfolio-link a {
+    position: initial;
+  }
+}
 .c-gallary {
   border-style: solid;
   border-width: 2px;
@@ -191,8 +194,11 @@ a:hover {
 
 .certificate-title {
   font-size: 400%;
-  margin-left: 450px;
-  margin-top: 50px;
+  /* margin-left: 450px;
+  margin-top: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-title {
@@ -232,7 +238,7 @@ a:hover {
 }
 .skills .content .title {
   text-align: center;
-  margin-top: 7vh;
+  margin-top: 3vh;
   font-size: 9vh;
 }
 .skill-details1 {
@@ -246,6 +252,14 @@ a:hover {
   font-size: 30px;
   margin: 1rem;
   margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+  .intro-title {
+    font-size: 4vw;
+  }
+  .intro-text p {
+    font-size: 3vw;
+  }
 }
 @media (max-width: 1190px) {
   .skills .content {
