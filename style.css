@@ -4,8 +4,8 @@
 /*........................*/
 body {
   background-color: black;
-  color: #FFFFFF;
-  font-family: 'Balsamiq Sans', cursive;
+  color: #ffffff;
+  font-family: "Balsamiq Sans", cursive;
   /* font-family: 'Gemunu Libre', sans-serif; */
   /* background: url('https://images.unsplash.com/photo-1597008937185-8874e312c24d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'); */
   /* background: url(assets\c-images\homepgbg2.jpg);*/
@@ -13,6 +13,7 @@ body {
 /*background-attachment: fixed;*/
   background-size: cover;
   overflow-x: hidden;
+
 }
 
 /* .home{
@@ -24,6 +25,26 @@ body {
 
 
 /*........................*/
+
+/*custom scroll bar stars here*/
+
+* {
+  scrollbar-width: 18px;/*thin;*/
+  scrollbar-color: black #141414;
+}
+
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bfbfbf;    /* color of the scroll thumb */
+
+}
+
+/*custom scroll bar ends here*/
+
 .intro-1{
   font-size: 200%;
 }
@@ -31,6 +52,14 @@ body {
 .intro-tag{
   margin-top: 6%;
   margin-left: 8%;
+}
+
+.intro-tag .profile-img{
+  position: absolute;
+  top:80px;
+  left: 380px;
+  height: 40px;
+  width: 40px;
 }
 
 .intro-2{
@@ -46,6 +75,7 @@ body {
   border-style: dashed;
   padding: 10px;
   border-width: 6px;
+
   }
 
 .blinking-cursor{
@@ -53,7 +83,7 @@ body {
   animation: blink 1s steps(2, start) infinite;
   @keyframes blink
     to
-      visibility: hidden
+      visibility: hidden;
 }
 
 /*........................*/
@@ -88,13 +118,8 @@ body {
   width: 320px;
   border-style: none;
   width: 580px;
-
-  margin-left: 80px; 
-  margin-top: -80px;
-
   margin-left: 80px;
-   margin-top: -80px;
-
+  margin-top: -80px;
 }
 
 .intro-text{
@@ -104,7 +129,7 @@ body {
   border-style: none;
   width: 500px;
   margin-left: 900px;*/
-  margin-right:70px; 
+  margin-right:70px;
 
 }
 
@@ -125,7 +150,6 @@ a{
 }
 
 a:hover{
-  color: gray;
   /* color: ; */
   /* text-decoration:underline;
   text-decoration-thickness:60%; */
@@ -158,6 +182,13 @@ a:hover{
   padding-left: 780px;
 }
 
+.about-me-img{
+  position: relative;
+  right: 750px;
+  width: 40px;
+  height: 40px;
+}
+
 .skills-iteams{
   font-size: 25px;
   font-family: 'Gemunu Libre', sans-serif;
@@ -180,6 +211,56 @@ a:hover{
   padding-top: 150px;
 }
 
+/* .c-gallary{
+  border-style: solid;
+  color: gray;
+  border-width: 3px;
+  padding: 30px;
+  width: 240px;
+  height: 275px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px rgb(107, 102, 102);
+} */
+
+#my-academics{
+  margin-top: 80px;
+}
+
+.my-education{
+  position: relative;
+   left: 700px;
+   bottom:500px;
+
+}
+#resume{
+  position: relative;
+  bottom:400px;
+  left: 600px;
+}
+
+.resume-button{
+     background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+#projects{
+position: relative;
+bottom: 320px;
+}
+
+#Certificates{
+  position: relative;
+bottom:200px;
+}
 
 .certi{
   margin-top: 70px;
@@ -198,6 +279,7 @@ a:hover{
   padding-bottom: 50px;
   padding-left: 585px;
 }
+
 
 .project-img{
   height: 350px;
@@ -222,6 +304,14 @@ a:hover{
 }
 /* .................................................. */
 
+.c-gallary {
+  border: solid 10px gray;
+  transition: border-width 0.3s linear;
+}
+
+.c-gallary:hover { border-width: 30px; }
+
+
 .c-gallary{
   height: 400px;
   width: 100%;
@@ -241,11 +331,75 @@ a:hover{
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
-.container-fluid
-{
-  background-color: #480274;
-  -webkit-box-shadow: 0px 0px 30px 0.1px #480274;
-          box-shadow: 0px 0px 30px 0.1px #480274;
+
+
+
+/* ........................................ */
+.button-top-div {
+
+  position: fixed;
+
+  bottom: 2vh;
+
+  right: 2vw;
+
+  cursor: pointer;
+
+  padding: 10px 13px;
+
+  display: flex;
+
+  align-items: center;
+
+  z-index: 80;
+
+  font-size: 20px;
+
+  background-color: rgb(218, 216, 216,0.8);
+
+  color: black !important;
+
+  border-radius: 50%;
+
+  display: none;
+
 }
+
+.button-top-div:hover{
+
+  background-color: rgb(218, 216, 216,0.5);
+
+  color: #111 !important;
+
+  font-size: 700;
+
+}
+
+.button-top-div a:hover{
+
+  color: #111;
+
+  font-weight: 700px !important;
+
+  text-decoration: none;
+
+}
+
+
+/* .......................... */
+footer{
+  min-height: 10vh;
+  margin-bottom:0;
+  position: absolute;
+  bottom:12;
+  width: 100%;
+}
+footer p a:hover{
+  font-weight: bolder;
+  color: white;
+}
+
+
+/* .................................. */
 
 
