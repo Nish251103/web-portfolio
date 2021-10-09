@@ -119,7 +119,7 @@ body {
   border-style: none;
   width: 580px;
   margin-left: 80px;
-  margin-top: -80px;
+  /* margin-top: -80px; */
 }
 
 .intro-text{
@@ -202,8 +202,14 @@ a:hover{
 }
 
 .edu-iteam{
+  color: #000;
   padding: 20px;
-  margin-left: 50px;
+
+  /* margin-left: 50px; */
+}
+
+.edu-iteam-box{
+  padding-left: 50px;
 }
 
 .portfolio-link{
@@ -229,15 +235,24 @@ a:hover{
 
 .my-education{
   position: relative;
-   left: 700px;
+   left: 600px;
    bottom:500px;
 
 }
+
+/* .my-education img{
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+} */
+
 #resume{
   position: relative;
-  bottom:400px;
-  left: 600px;
+  bottom:950px;
+  left: 1040px;
 }
+
+
 
 .resume-button{
      background-color: #1c87c9;
