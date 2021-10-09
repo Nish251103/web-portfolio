@@ -114,11 +114,12 @@ body {
 
 .intro-title{
   font-size: 400%;
+
   width: 320px;
   border-style: none;
   width: 580px;
-  /* margin-left: 80px;
-  margin-top: -80px; */
+  margin-left: 80px;
+  margin-top: -80px;
 }
 
 .intro-text{
@@ -201,9 +202,8 @@ a:hover{
 }
 
 .edu-iteam{
-  color: #000;
   padding: 20px;
-  /* margin-left: 50px; */
+  margin-left: 50px;
 }
 
 .portfolio-link{
@@ -229,42 +229,28 @@ a:hover{
 
 .my-education{
   position: relative;
-   left: 600px;
+   left: 700px;
    bottom:500px;
 
 }
-.my-education img{
-  width: 600px;
-  height: 500px;
-  border-radius: 10px;
-}
-/* #resume{
+#resume{
   position: relative;
   bottom:400px;
   left: 600px;
-  text-decoration: none;
-} */
-
-.bton{
-  text-decoration: none !important;
-  color: #fff !important;
-  margin-left: 20px;
-  text-decoration: none !important;
-
 }
 
-/* .resume-button{
+.resume-button{
      background-color: #1c87c9;
         border: none;
         color: white;
         padding: 20px 34px;
         text-align: center;
-        
+        text-decoration: none;
         display: inline-block;
         font-size: 20px;
         margin: 4px 2px;
         cursor: pointer;
-} */
+}
 
 #projects{
 position: relative;
@@ -415,5 +401,3 @@ footer p a:hover{
 
 
 /* .................................. */
-
-
