@@ -390,6 +390,9 @@ a:hover{
 
 }
 
+
+/* .......................... 
+
 .button-top-div a:hover{
 
   color: #111;
@@ -400,8 +403,6 @@ a:hover{
 
 }
 
-
-/* .......................... */
 footer{
   min-height: 10vh;
   margin-bottom:0;
@@ -415,4 +416,41 @@ footer p a:hover{
 }
 
 
-/* .................................. */
+ .................................. */
+
+/*Footer*/
+
+
+#footer{
+  background-color: #0a0a0a;
+  color:white;
+
+}
+
+.BackToTop{
+  margin-top: 30px;
+  margin-left: 49%;
+}
+
+.social{
+    padding-left: 42%;
+}
+
+.social-media{
+    margin: 20px 20px;
+}
+
+.social-media:hover{
+    color: #c4c4c4;
+}
+
+.icon{
+  margin-bottom: 1rem ;
+  margin: 20px 15px;
+}
+
+.icon:hover{
+  color: #dce9f1;
+}
+
+
