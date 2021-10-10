@@ -1,0 +1,5 @@
+navbar made reactive with collapse feature on smaller devices and fixed top full nav for larger devices.
+navbar now has technish grey logo embedded next to technish brand name.
+fixed typos and css file errors.
+adjusted margin and padding to make webpage more aesthetic.
+animated certificates border.
