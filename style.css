@@ -112,6 +112,7 @@ body {
 
 }
 
+
 .intro-title{
   font-size: 400%;
 
@@ -130,6 +131,7 @@ body {
   width: 500px;
   margin-left: 900px;*/
   margin-right:70px;
+
 
 }
 
@@ -218,6 +220,7 @@ a:hover{
 }
 
 /* .c-gallary{
+
   border-style: solid;
   color: gray;
   border-width: 3px;
@@ -239,6 +242,7 @@ a:hover{
    bottom:500px;
 
 }
+
 
 /* .my-education img{
   width: 600px;
@@ -287,6 +291,7 @@ bottom:200px;
   text-align: center;
   /* margin-left: 450px; */
   margin-top: 50px;
+
 }
 
 .project-title{
@@ -345,6 +350,7 @@ a:hover{
   background-color: #1c1b29;
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0,0,0,0.5);
+
 }
 
 
@@ -365,6 +371,7 @@ a:hover{
   display: flex;
 
   align-items: center;
+
 
   z-index: 80;
 
@@ -387,6 +394,7 @@ a:hover{
   color: #111 !important;
 
   font-size: 700;
+
 
 }
 
